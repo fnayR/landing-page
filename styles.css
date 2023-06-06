@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: sans-serif, Verdana;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -25,8 +25,18 @@ h1 {
     font-weight: bolder;
 }
 
-p {
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.text {
     color: #E5E7EB;
+    font-size: 18px;
+    margin-top: -26px;
+    margin-bottom: 12px;
+
 }
 
 .header {
@@ -49,7 +59,7 @@ p {
     background-color: #1F2937;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    padding: 150px 100px;
     gap: 100px;
 }
 
@@ -65,11 +75,62 @@ button {
 }
 
 .left-content {
-    width: 400px;
+    width: 450px;
 }
 
 .content-img {
-    background-color:gray;
-    padding: 80px 100px;
+    background-color:rgb(151, 156, 175);
+    padding: 120px 150px;
     color: #F9FAF8;
+}
+
+.info-img {
+    width: 150px;
+    height: 150px;
+    border: inset 4px #3882F6;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    gap: 52px;
+    padding-top: 32px;
+    padding-bottom: 100px;
+}
+
+.info-content {
+    width: 150px;
+    text-align: center;
+}
+
+.text-info {
+    margin-top: 4px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 120px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    padding: 50px;
+  
+}
+
+.thor {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: end;
 }
