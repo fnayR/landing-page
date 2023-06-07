@@ -74,6 +74,15 @@ button {
     font-weight: bold;
 }
 
+.button-two {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: solid 3px #F9FAF8;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+
 .left-content {
     width: 450px;
 }
@@ -133,4 +142,26 @@ button {
     font-size: 18px;
     font-weight: bold;
     text-align: end;
+}
+
+.sign-up {
+    padding: 150px;
+}
+
+
+.box {
+    display: flex;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 60px 30px;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    border-radius: 8px;
+}
+
+.text-cta {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
 }
